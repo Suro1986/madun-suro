@@ -1,0 +1,44 @@
+.class{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    transition: 1.5s cubic-bezier(.11,.62,1,-0.61);
+    background: url(https://www.anypics.ru/download.php?file=201211/1440x900/anypics.ru-36860.jpg);
+    background-size: cover;
+    border-radius: 200px;
+}
+.class:hover{
+    background-color: blue;
+    transform: scaleX(5); /* X,Y Մեծացնում ու փոկրացնում է */
+    transform: translateX(300px); /* Աջ ու ձախ է անում */
+    transform: rotate(180deg); /* Ֆռցնումա 0-360 աստիճան */
+}
+.some{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    margin: 20px;
+    transition: 2s ease-in-out;
+    border: 3px double chocolate;
+    border-radius: 300px;
+    background: url(https://www.anypics.ru/download.php?file=201211/1440x900/anypics.ru-48701.jpg);
+    background-size: cover;
+}
+.some:hover{
+    background-color: green;
+    transform: translateX(500px);
+}
+.madun{
+    width: 300px;
+    height: 300px;
+    background-color: coral;
+    margin: -22% 683px;
+    border: 4px double cyan;
+    border-radius: 300px;
+    background: url(https://phonoteka.org/uploads/posts/2021-07/1625509729_3-phonoteka-org-p-zastavka-na-glavnii-ekran-kompyutera-krasi-3.jpg);
+    background-size: cover;
+    transition: 2s ease-out;
+}
+.madun:hover{
+     transform: translateY(300px);
+}
